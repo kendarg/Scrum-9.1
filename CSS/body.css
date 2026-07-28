@@ -1,4 +1,4 @@
-:root{
+:root {
     --verde: #006847;
     --azul: #003366;
     --dorado: #FFFFFF;
@@ -6,13 +6,13 @@
     --gris: #F5F5F5;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     background: var(--verde);
     color: var(--dorado);
     text-align: center;
@@ -22,27 +22,27 @@ h1{
     letter-spacing: 2px;
 }
 
-main{
+main {
     width: 85%;
     max-width: 1200px;
     font-family: "Bebas Neue", sans-serif;
     margin: 50px auto;
 }
 
-.infom{
+.infom {
     margin-bottom: 30px;
     padding: 30px;
     border-radius: 10px;
     border: 5px solid var(--verde);
-    box-shadow: 15px 5px 5px 5px rgba(0,0,0,.4);
+    box-shadow: 15px 5px 5px 5px rgba(0, 0, 0, .4);
     transition: 0.3s;
 }
 
-section:hover{
-    box-shadow: 0 10px 20px rgba(0,0,0,.15);
+section:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .15);
 }
 
-h2{
+h2 {
     text-align: center;
     color: var(--verde);
     font-size: 2.2rem;
@@ -50,33 +50,33 @@ h2{
     margin-bottom: 10px;
 }
 
-h3{
+h3 {
     color: var(--azul);
     margin-bottom: 20px;
     font-size: 1.2rem;
     font-weight: normal;
 }
 
-p{
+p {
     text-align: justify;
     margin-bottom: 15px;
 }
 
-ul{
+ul {
     margin: 20px 0;
     padding-left: 25px;
 }
 
-li{
+li {
     margin-bottom: 12px;
     transition: 0.3s;
 }
 
-li:hover{
+li:hover {
     color: var(--verde);
     padding-left: 8px;
 }
 
-section + section{
+section+section {
     margin-top: 35px;
 }

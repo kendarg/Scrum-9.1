@@ -1,0 +1,70 @@
+:root {
+  --verde: #00e099;
+  --verde-claro: #00e099;
+  --negro: #121212;
+  --dorado: #f1c40f;
+  --subtitulo-azul: #38ef7d;
+  --blanco: #ffffff;
+}
+
+h1 {
+  background-color: var(--verde) !important;
+  color: var(--dorado) !important;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  padding: 1rem;
+}
+
+.infom {
+  background-color: var(--negro) !important;
+  border: 3px solid var(--verde-claro) !important;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: var(--blanco) !important; 
+}
+
+.infom:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(0, 224, 153, 0.3);
+}
+
+.infom h2 {
+  color: var(--verde-claro) !important;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.8rem;
+}
+
+.infom h3 {
+  color: var(--subtitulo-azul) !important;
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+
+.infom p {
+  color: var(--blanco) !important;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+.infom .list-group-item {
+  background-color: transparent !important;
+  color: var(--blanco) !important; 
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.infom .list-group-item strong {
+  color: var(--blanco) !important;
+}
+
+.infom .list-group-item:hover {
+  color: var(--verde-claro) !important;
+  padding-left: 15px;
+  transition: all 0.3s ease;
+}
