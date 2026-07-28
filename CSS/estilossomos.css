@@ -51,3 +51,7 @@ section.container h1 {
     border-color: var(--dorado) !important;
     background-color: var(--dorado) !important;
 }
+.cart.body{
+    width: 8rem;
+    height: 10rem;
+}
