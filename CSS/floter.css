@@ -1,0 +1,64 @@
+:root{
+    --verde: #006847;
+    --azul: #003366;
+    --dorado: #F4C430;
+    --blanco: #FFFFFF;
+    --gris: #F5F5F5;
+    --negro: #222222;
+}
+
+footer {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  background-color: var(--gris);
+  color: var(--blanco);
+  padding: 2rem;
+  border-top: 4px solid var(--dorado);
+  border-radius: 8px;
+}
+footer{
+    background-color: var(--negro);
+}
+footer h3 {
+  color: var(--dorado);
+  margin-top: 0;
+}
+
+footer h3 span {
+  color: var(--blanco);
+  font-weight: normal;
+}
+
+footer h4 {
+  margin-bottom: 0.5rem;
+  color: var(--dorado);
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+footer li {
+  margin-bottom: 0.25rem;
+}
+
+footer a {
+  color: var(--dorado);
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: var(--blanco);
+}
+
+footer p:last-child {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}

@@ -1,0 +1,113 @@
+:root{
+    /* Colores */
+    /* s */
+    --verde: #006847;
+    --azul: #003366;
+    --dorado: #F4C430;
+    /* Titulos */
+    --blanco: #FFFFFF;
+    --gris: #F5F5F5;
+    --grisO: #afafaf;
+    /* fondo */
+    --negro: #222222;
+    --negroc: #141414f6;
+    
+}
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'bebas Neue', sans-serif;
+    letter-spacing: 1px;
+
+}
+body{
+    background-color: var(--grisO);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container-form{
+    display: flex;
+    justify-content: center;
+    padding: 10px 200px 10px 20px ;
+}
+
+.info-form{
+    color: var(--blanco);
+    background-color: var(--negro);
+    margin-left: 15rem;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px var(--negroc);
+
+
+}
+.info-form a{
+    color: var(--dorado);
+    margin-top: 1rem;
+    margin-block-end: 1rem;
+    
+
+}
+.info{
+    margin-top: 1rem;
+}
+.numer, .ciudad, .correo{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-block-end: 1rem;
+}
+.container-form{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: -1rem;
+}
+#name, #email, #number{
+    display: flex;
+    margin-left: 0.2rem;
+    width: 98%;
+    margin-top: 1rem;
+    border-top: 2px solid var(--negro);
+    border-radius: 5px;
+    text-align: center;
+}
+.formulario{
+    background-color: var(--gris);
+    /* width: 100%; */
+    margin-left: -0.2rem;
+    box-shadow: 10px 10px 10px var(--negroc);
+    border-radius: 10px;
+}
+h2{
+    justify-content: center;
+    display: flex;
+}
+h5{
+    color: var(--blanco);
+    
+}
+p{
+text-align: center;
+margin-left: 0.5rem;
+margin-right: 0.2rem;
+}
+.boton{
+    background-color: var(--negroc);
+    color: var(--dorado);
+    text-align: center;
+    margin-left: 0.2rem;
+    width: 98%;
+    box-shadow: 15px 10px 200px var(--negroc);
+    height: 2rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+a{
+    color: var(--dorado);
+}
