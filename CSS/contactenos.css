@@ -17,12 +17,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'bebas Neue', sans-serif;
     letter-spacing: 1px;
 }
 
 body{
-    background-color: var(--grisO);
+    background-color: var(--grisO) !important;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif !important;
+
 }
 
 .titulo{
