@@ -1,0 +1,9 @@
+.nav-link {
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+    background: #F4C430;
+    color: #111111;
+}
+
