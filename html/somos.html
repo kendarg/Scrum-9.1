@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -16,182 +15,420 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+>   
     <link rel="stylesheet" href="../CSS/estilossomos.css">
 
     <title>Pasión Mundialista - Quiénes somos</title>
 </head>
 
 <body>
+    <!-- incio header -->
+  <nav class="navbar bg-dark px-4 py-3">
 
-<header>
-        <section class="logo">
-            <img src="..//img/logo.png" alt="Logo">
-            <h1>Pasión Mundialista</h1>
-        </section>
-        <ul class="menu">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Quiénes somos</a></li>
-        </ul>
-</header>
+        <!-- Contenedor principal -->
+        <div class="container-fluid dflex flex-wrap align-items-center justify-content-between">
+
+            <!-- Logo -->
+            <a href="/inicio.html" class="navbar-brand d-flex align-items-center text-white">
+                <img src="/img/logo.png" alt="Logo" width="50" height="50">
+
+                <span class="fs-2 fw-bold ms-3">
+                    Pasión Mundialista
+                </span>
+            </a>
+
+
+            <!-- Links -->
+            <ul class="navbar-nav d-flex flex-row flex-wrap justify-content-center">
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white fs-4 fw-bold px-4">
+                        Inicio
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white fs-4 fw-bold px-4">
+                        Contacto
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white fs-4 fw-bold px-4">
+                        Quiénes somos
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+    <!-- fin header -->
+
+    <!-- incio hero -->
+    <!-- fin hero -->
+    <!-- Inicio hero -->
+    <section class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+
+            <!-- Imagen -->
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="../Img/TeamEquipo.png" class="d-block mx-lg-auto img-fluid" alt="Equipo de Pasión Mundialista"
+                    width="700" height="500" loading="lazy">
+            </div>
+
+            <!-- Texto -->
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+                    Apasionados por el fútbol
+                </h1>
+
+                <p class="lead">
+                    Pasión Mundialista nació de un grupo de cinco estudiantes de Generation Colombia que, en su afán de
+                    poner a prueba sus habilidades de desarrollo, encontraron en el fútbol la oportunidad perfecta para
+                    demostrar todo lo aprendido.
+                </p>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                        Contacto
+                    </button>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Fin hero -->
 
     <main>
 
-        <section class="hero">
 
-            <h1>Somos Pasión Mundialista</h1>
+   <!-- Inicio equipo -->
+<section class="album py-4 bg-body-tertiary">
 
-            <figure class="hero_imagen">
-                <img src="../Img/TeamEquipo.png" alt="Equipo de desarrollo de Pasión Mundialista">
-            </figure>
+    <div class="container">
 
-        </section>
+        <!-- Título -->
+        <div class="text-center mb-4">
 
-        <section class="presentacion">
+            <h2 class="fw-bold">
+                Nuestro equipo
+            </h2>
 
-            <h2>Apasionados por el fútbol</h2>
-
-            <p>
-                Pasión Mundialista nació de un grupo de cinco estudiantes de Generation Colombia
-                que, en su afán de poner a prueba sus habilidades de desarrollo, encontraron en
-                el fútbol la oportunidad perfecta para demostrar todo lo aprendido.
+            <p class="lead text-body-secondary">
+                Conoce al equipo de estudiantes detrás del desarrollo
+                de Pasión Mundialista.
             </p>
 
-        </section>
+        </div>
 
-        <section class="equipo">
+        <!-- Tarjetas -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 justify-content-center">
 
-            <h2>Nuestro equipo</h2>
+            <!-- Tarjeta 1 -->
+            <div class="col">
 
-            <div class="cardEquipo">
+                <article class="card tarjeta-equipo shadow-sm">
 
-                <article class="card">
+                    <img
+                        src="../Img/Team 1.png"
+                        class="card-img-top imagen-integrante"
+                        alt="Fotografía de Kendarg Real"
+                    >
 
-                    <figure class="card__imagen">
-                        <img src="../Img/Team 1.png" alt="Fotografía de Kendarg Real">
-                    </figure>
+                    <div class="card-body">
 
-                    <h3>Kendarg Real</h3>
+                        <h3 class="card-title h4">
+                            Kendarg Real
+                        </h3>
 
-                    <p class="cargo">Desarrollador</p>
+                        <p class="cargo text-body-secondary fw-semibold">
+                            Desarrollador
+                        </p>
 
-                    <p class="descripcion">
-                        Estudiante de desarrollo de software apasionado por la tecnología,
-                        el trabajo en equipo y la creación de experiencias digitales relacionadas
-                        con el mundo del fútbol.
-                    </p>
+                        <p class="card-text">
+                            Estudiante de desarrollo de software apasionado
+                            por la tecnología, el trabajo en equipo y la
+                            creación de experiencias digitales relacionadas
+                            con el mundo del fútbol.
+                        </p>
 
-                </article>
+                        <a
+                            href=""
+                            class="btn btn-sm btn-outline-primary"
+                            aria-label="LinkedIn de Kendarg Real"
+                        >
+                            <i class="bi bi-linkedin me-2" aria-hidden="true"></i>
+                            Ver perfil
+                        </a>
 
-                <article class="card">
-
-                    <figure class="card__imagen">
-                        <img src="..//Img/Team 2.png" alt="Fotografía de Diego Rojas">
-                    </figure>
-
-                    <h3>Diego Rojas</h3>
-
-                    <p class="cargo">Desarrollador</p>
-
-                    <p class="descripcion">
-                        Estudiante de desarrollo de software interesado en crear soluciones
-                        funcionales, atractivas y fáciles de utilizar para los usuarios.
-                    </p>
-
-                </article>
-
-                <article class="card">
-
-                    <figure class="card__imagen">
-                        <img src="..//Img/Team 3.png" alt="Fotografía de Sebastián Pereira">
-                    </figure>
-
-                    <h3>Sebastián Pereira</h3>
-
-                    <p class="cargo">Desarrollador</p>
-
-                    <p class="descripcion">
-                        Estudiante enfocado en el desarrollo web, la resolución de problemas
-                        y la construcción de proyectos digitales mediante el trabajo colaborativo.
-                    </p>
-
-                </article>
-
-                <article class="card">
-
-                    <figure class="card__imagen">
-                        <img src="..//Img/Team 4.png" alt="Fotografía de Sergio Montaño">
-                    </figure>
-
-                    <h3>Sergio Montaño</h3>
-
-                    <p class="cargo">Desarrollador</p>
-
-                    <p class="descripcion">
-                        Estudiante de desarrollo de software motivado por aprender nuevas
-                        tecnologías y participar en proyectos que conecten creatividad y programación.
-                    </p>
-
-                </article>
-
-                <article class="card">
-
-                    <figure class="card__imagen">
-                        <img src="..//Img/Team 5.png" alt="Fotografía de Jorge Gutiérrez Vallejo">
-                    </figure>
-
-                    <h3>Jorge Gutiérrez Vallejo</h3>
-
-                    <p class="cargo">Desarrollador</p>
-
-                    <p class="descripcion">
-                        Estudiante interesado en el diseño y desarrollo de sitios web,
-                        con especial atención a la experiencia visual y la organización del contenido.
-                    </p>
+                    </div>
 
                 </article>
 
             </div>
 
-        </section>
+            <!-- Tarjeta 2 -->
+            <div class="col">
 
-    </main>
+                <article class="card tarjeta-equipo shadow-sm">
 
-    <footer class="footer">
+                    <img
+                        src="../Img/Team 2.png"
+                        class="card-img-top imagen-integrante"
+                        alt="Fotografía de Diego Rojas"
+                    >
 
-        <h2>
-            Nombre del proyecto:
-            <span>Pasión Mundialista</span>
-        </h2>
+                    <div class="card-body">
 
-        <div class="footer__autores">
+                        <h3 class="card-title h4">
+                            Diego Rojas
+                        </h3>
 
-            <h3>Autores</h3>
+                        <p class="cargo text-body-secondary fw-semibold">
+                            Desarrollador
+                        </p>
 
-            <ul>
-                <li>Diego Rojas</li>
-                <li>Jorge Gutiérrez Vallejo</li>
-                <li>Kendarg Real</li>
-                <li>Sebastián Pereira</li>
-                <li>Sergio Montaño</li>
-            </ul>
+                        <p class="card-text">
+                            Estudiante de desarrollo de software interesado
+                            en crear soluciones funcionales, atractivas y
+                            fáciles de utilizar para los usuarios.
+                        </p>
+
+                        <a
+                            href=""
+                            class="btn btn-sm btn-outline-primary"
+                            aria-label="LinkedIn de Diego Rojas"
+                        >
+                            <i class="bi bi-linkedin me-2" aria-hidden="true"></i>
+                            Ver perfil
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="col">
+
+                <article class="card tarjeta-equipo shadow-sm">
+
+                    <img
+                        src="../Img/Team 3.png"
+                        class="card-img-top imagen-integrante"
+                        alt="Fotografía de Sebastián Pereira"
+                    >
+
+                    <div class="card-body">
+
+                        <h3 class="card-title h4">
+                            Sebastián Pereira
+                        </h3>
+
+                        <p class="cargo text-body-secondary fw-semibold">
+                            Desarrollador
+                        </p>
+
+                        <p class="card-text">
+                            Estudiante enfocado en el desarrollo web, la
+                            resolución de problemas y la construcción de
+                            proyectos digitales mediante el trabajo
+                            colaborativo.
+                        </p>
+
+                        <a
+                            href=""
+                            class="btn btn-sm btn-outline-primary"
+                            aria-label="LinkedIn de Sebastián Pereira"
+                        >
+                            <i class="bi bi-linkedin me-2" aria-hidden="true"></i>
+                            Ver perfil
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <!-- Tarjeta 4 -->
+            <div class="col">
+
+                <article class="card tarjeta-equipo shadow-sm">
+
+                    <img
+                        src="../Img/Team 4.png"
+                        class="card-img-top imagen-integrante"
+                        alt="Fotografía de Sergio Montaño"
+                    >
+
+                    <div class="card-body">
+
+                        <h3 class="card-title h4">
+                            Sergio Montaño
+                        </h3>
+
+                        <p class="cargo text-body-secondary fw-semibold">
+                            Desarrollador
+                        </p>
+
+                        <p class="card-text">
+                            Estudiante de desarrollo de software motivado
+                            por aprender nuevas tecnologías y participar en
+                            proyectos que conecten creatividad y programación.
+                        </p>
+
+                        <a
+                            href=""
+                            class="btn btn-sm btn-outline-primary"
+                            aria-label="LinkedIn de Sergio Montaño"
+                        >
+                            <i class="bi bi-linkedin me-2" aria-hidden="true"></i>
+                            Ver perfil
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <!-- Tarjeta 5 -->
+            <div class="col">
+
+                <article class="card tarjeta-equipo shadow-sm">
+
+                    <img
+                        src="../Img/Team 5.png"
+                        class="card-img-top imagen-integrante"
+                        alt="Fotografía de Jorge Gutiérrez Vallejo"
+                    >
+
+                    <div class="card-body">
+
+                        <h3 class="card-title h4">
+                            Jorge Gutiérrez Vallejo
+                        </h3>
+
+                        <p class="cargo text-body-secondary fw-semibold">
+                            Desarrollador
+                        </p>
+
+                        <p class="card-text">
+                            Estudiante interesado en el diseño y desarrollo
+                            de sitios web, con especial atención a la
+                            experiencia visual y la organización del contenido.
+                        </p>
+
+                        <a
+                            href=""
+                            class="btn btn-sm btn-outline-primary"
+                            aria-label="LinkedIn de Jorge Gutiérrez Vallejo"
+                        >
+                            <i class="bi bi-linkedin me-2" aria-hidden="true"></i>
+                            Ver perfil
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
 
         </div>
 
-        <p>
-            Contacto:
-            <a href="mailto:contacto@proyecto-ficticio.com">
-                contacto@proyecto-ficticio.com
-            </a>
-        </p>
+    </div>
 
-        <p>
-            &copy; 2026 Pasión Mundialista. Todos los derechos reservados.
-        </p>
+</section>
+<!-- Fin equipo -->
 
-    </footer>
+</main>
 
+
+
+
+    <!-- incio footer -->
+ <footer class="bg-dark text-white mt-auto py-5 border-top">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- Información del proyecto -->
+            <div class="col-md-6 mb-4 mb-md-0">
+
+                <h3>
+                    Nombre del Proyecto:
+                    <span class="fw-bold">Pasión Mundialista</span>
+                </h3>
+
+                <p class="mt-3">
+                    Portal interactivo dedicado a la pasión por el fútbol mundial.
+                </p>
+
+            </div>
+
+
+            <!-- Autores -->
+            <div class="col-md-6">
+
+                <h4>Autores:</h4>
+
+                <ul class="list-unstyled">
+                    <li>Diego Rojas</li>
+                    <li>Jorge Gutierrez</li>
+                    <li>Kendarg Real</li>
+                    <li>Sebastian Pereira</li>
+                    <li>Sergio Montaño</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <hr class="border-secondary">
+
+
+        <!-- Contacto y derechos -->
+        <div class="text-center">
+
+            <p>
+                Contacto:
+                <a href="mailto:contacto@proyecto-ficticio.com" 
+                   class="text-white fw-bold">
+                    contacto@proyecto-ficticio.com
+                </a>
+            </p>
+
+
+            <p class="mb-0">
+                &copy; 2026 Portal Interactivo. Todos los derechos reservados.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</footer>
+
+    <!-- fin footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
